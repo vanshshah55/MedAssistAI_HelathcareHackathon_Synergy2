@@ -1,0 +1,126 @@
+{
+    "Blood Cell Classification": {
+        "model_name" : "bloodmnist",
+        "model_path" : "onnx_models/VSSM-BloodMNIST.onnx",
+        "class_info" : {
+            "0": {
+                "class": "Basophil",
+                "desc": "Basophils are the least common type of white blood cell and play a crucial role in the body\u2019s immune response, particularly in allergic reactions and parasitic infections. They contain granules filled with histamine and other chemicals that help mediate inflammation and allergic symptoms. Under a microscope, basophils are identified by their dark blue or purple granules that often obscure the cell nucleus."
+            },
+            "1": {
+                "class": "Eosinophil",
+                "desc": "Eosinophils are white blood cells primarily involved in combating parasitic infections and moderating allergic responses. They are characterized by their bilobed nucleus and large orange-red granules in the cytoplasm when stained. Elevated levels of eosinophils in the blood can indicate allergies, asthma, or parasitic infections."
+            },
+            "2": {
+                "class": "Erythroblast",
+                "desc": "Erythroblasts are immature red blood cells found in the bone marrow during the process of erythropoiesis (red blood cell formation). These cells contain a nucleus, which is eventually expelled as they mature into erythrocytes. Erythroblasts are critical for maintaining oxygen transport in the body and are identifiable by their round shape and dark-staining nucleus."
+            },
+            "3": {
+                "class": "Immature Granulocytes (Myelocytes, Metamyelocytes, and Promyelocytes)",
+                "desc": "Immature granulocytes are precursor cells to mature granulocytes (neutrophils, eosinophils, and basophils) and are typically found in the bone marrow. These cells indicate early stages of granulocyte development, identifiable by their large size, oval or kidney-shaped nuclei, and the presence of granules in the cytoplasm. Elevated levels in peripheral blood may suggest an ongoing infection or bone marrow disorder."
+            },
+            "4": {
+                "class": "Lymphocyte",
+                "desc": "Lymphocytes are a type of white blood cell essential for adaptive immunity. They include B cells, T cells, and natural killer (NK) cells. Lymphocytes have a large, round nucleus with minimal cytoplasm and are crucial for fighting infections, producing antibodies, and targeting abnormal cells. Changes in their levels can indicate infections, autoimmune diseases, or hematologic conditions."
+            },
+            "5": {
+                "class": "Monocyte",
+                "desc": "Monocytes are large white blood cells involved in immune defense and inflammation. They can differentiate into macrophages or dendritic cells to engulf and digest pathogens and cellular debris. Monocytes have a kidney-shaped or horseshoe-shaped nucleus and are critical for innate immunity and tissue repair."
+            },
+            "6": {
+                "class": "Neutrophil",
+                "desc": "Neutrophils are the most abundant white blood cells and serve as the first responders to infection. They target bacteria and fungi through phagocytosis and the release of antimicrobial substances. Neutrophils have a multi-lobed nucleus and small, pale granules in the cytoplasm. Elevated neutrophil levels are often associated with bacterial infections."
+            },
+            "7": {
+                "class": "Platelet",
+                "desc": "Platelets, or thrombocytes, are small, cell fragment-like structures crucial for blood clotting and wound repair. Derived from megakaryocytes in the bone marrow, platelets lack a nucleus and are identified by their small size and granular appearance. Low or high platelet counts can indicate bleeding disorders or thrombotic conditions."
+            }
+        }
+    },
+    "Pneumonia Detection": {
+        "model_name" : "pneumoniamnist",
+        "model_path" :"onnx_models/VSSM-PneumoniaMNIST.onnx",
+        "class_info" : {
+            "0": {
+                "class": "Normal",
+                "desc": "This class represents healthy lung images with no signs of infection or abnormalities. Normal chest X-rays show clear lung fields with no evidence of fluid buildup, consolidation, or other pathological changes. The air-filled lungs appear darker, while the surrounding structures, such as the heart and bones, are well-defined and within normal anatomical boundaries."
+            },
+            "1": {
+                "class": "Pneumonia",
+                "desc": "This class includes lung images showing signs of pneumonia, an infection that inflames the air sacs in the lungs. Pneumonia may be caused by bacteria, viruses, or fungi and can lead to symptoms like fever, cough, and difficulty breathing. In chest X-rays, pneumonia appears as areas of increased opacity (whiteness) due to fluid or pus filling the alveoli, often with reduced clarity of the lung markings."
+            }
+        }
+    },
+    "Skin Lesion Detection": {
+        "model_name" : "dermamnist",
+        "model_path" : "onnx_models/VSSM-DermaMNIST.onnx",
+        "class_info" : {
+            "0": {
+                "class": "Actinic Keratoses and Intraepithelial Carcinoma",
+                "desc": "Actinic keratoses (AK) are rough, scaly patches on the skin caused by prolonged sun exposure, often considered precancerous lesions. If left untreated, AKs can develop into intraepithelial carcinoma, a more advanced form of skin cancer limited to the surface layers of the skin. These conditions primarily occur in sun-exposed areas and are common in fair-skinned individuals."
+            },
+            "1": {
+                "class": "Basal Cell Carcinoma",
+                "desc": "Basal cell carcinoma (BCC) is the most common type of skin cancer, typically arising in areas exposed to the sun, like the face and neck. It often appears as a pearly bump or a flat, scaly patch, and while it rarely metastasizes, it can cause significant local tissue damage if untreated. BCC is strongly linked to cumulative sun exposure and genetic predispositions."
+            },
+            "2": {
+                "class": "Benign Keratosis-like Lesions",
+                "desc": "These are non-cancerous skin growths that include seborrheic keratoses, solar lentigines, and lichen planus-like keratoses. They are typically harmless, appearing as brown, tan, or black lesions with a warty texture. Such lesions often result from aging or sun exposure and are common in middle-aged and older individuals."
+            },
+            "3": {
+                "class": "Dermatofibroma",
+                "desc": "Dermatofibromas are benign skin growths commonly seen as small, firm, and raised nodules. They are often reddish-brown and may feel tender when touched. These lesions are generally harmless and thought to result from minor skin injuries or insect bites, frequently appearing on the legs or arms."
+            },
+            "4": {
+                "class": "Melanoma",
+                "desc": "Melanoma is an aggressive and potentially life-threatening skin cancer originating in melanocytes, the cells producing pigment. It often appears as an asymmetrical, irregularly bordered, multicolored mole or lesion. Early detection is critical, as melanoma can quickly spread to other parts of the body, but it is highly treatable when caught early."
+            },
+            "5": {
+                "class": "Melanocytic Nevi",
+                "desc": "Commonly referred to as moles, melanocytic nevi are benign growths of melanocytes. They can appear as flat or raised spots in various colors, such as brown, black, or pink. While most nevi are harmless, some may resemble melanoma, making regular monitoring important for any changes in size, color, or shape."
+            },
+            "6": {
+                "class": "Vascular Lesions",
+                "desc": "Vascular lesions arise from abnormal blood vessels in the skin and can range from harmless birthmarks to more concerning conditions like cherry angiomas or hemangiomas. These lesions often appear as red, purple, or blue patches or nodules. While most are benign, some vascular lesions may require medical evaluation for cosmetic or therapeutic reasons."
+            }
+        }
+    },
+    "Retina Disease Classification": {
+        "model_name" : "retinamnist",
+        "model_path" : "onnx_models/VSSM-RetinaMNIST.onnx",
+        "class_info" : {
+            "0": {
+                "class": "No DR",
+                "desc": "This class represents retina fundus images with no signs of diabetic retinopathy (DR). The blood vessels appear normal, and there are no observable microaneurysms, hemorrhages, or other abnormalities. This indicates healthy retinal conditions in patients with diabetes."
+            },
+            "1": {
+                "class": "Mild DR",
+                "desc": "Mild diabetic retinopathy is characterized by the presence of a few microaneurysms, which are small, localized outpouchings of blood vessels in the retina. These early signs of damage are typically asymptomatic but indicate the initial impact of diabetes on the eye."
+            },
+            "2": {
+                "class": "Moderate DR",
+                "desc": "In this stage, fundus images show more pronounced signs of retinal damage, including microaneurysms, hemorrhages, and possible hard exudates. Moderate DR can affect vision over time and requires closer monitoring and potential treatment."
+            },
+            "3": {
+                "class": "Severe DR",
+                "desc": "Severe diabetic retinopathy is marked by widespread microaneurysms, large hemorrhages, venous beading, and intraretinal microvascular abnormalities (IRMA). These changes significantly threaten vision and often precede the proliferative stage of the disease."
+            },
+            "4": {
+                "class": "Proliferative DR",
+                "desc": "Proliferative diabetic retinopathy is the most advanced and severe stage, characterized by the growth of new, fragile blood vessels (neovascularization) on the retina or optic disc. These vessels can leak blood, leading to vitreous hemorrhages, tractional retinal detachment, and severe vision loss or blindness without prompt treatment."
+            }
+        }
+    },
+    "Breast Cancer Classification": {
+        "model_name" : "breatmnist",
+        "model_path" : "onnx_models/VSSM-BreastMNIST.onnx",
+        "0": {
+            "class": "Malignant",
+            "desc": "This class represents breast ultrasound images showing characteristics of malignant (cancerous) tumors. Malignant tumors are aggressive growths that can invade surrounding tissues and spread to other parts of the body. On ultrasound, they often appear as irregularly shaped, hypoechoic (dark) masses with poorly defined or spiculated margins. Early detection is crucial for effective treatment and improved prognosis."
+        },
+        "1": {
+            "class": "Normal, Benign",
+            "desc": "This combined class includes normal breast tissue and benign (non-cancerous) tumors. Normal breast images show a homogeneous structure without masses or abnormalities. Benign tumors, such as fibroadenomas or cysts, typically appear as well-defined, oval, or round hypoechoic masses with smooth margins on ultrasound. While benign conditions are not life-threatening, monitoring or further evaluation may be required to ensure no malignant transformation."
+        }
+    }
+}

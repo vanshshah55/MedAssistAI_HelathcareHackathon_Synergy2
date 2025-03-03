@@ -1,0 +1,6 @@
+streamlit
+onnxruntime
+numpy
+Pillow
+torchvision
+opencv-python
